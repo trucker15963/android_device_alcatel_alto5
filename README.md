@@ -16,7 +16,7 @@ repo init -u https://github.com/CarlosArriagaDV/twrp_recovery_manifest -b androi
 mkdir -p .repo/local_manifests
 ````
 
-Create a file .repo/local_manifests/otus.xml and paste this in
+Create a file .repo/local_manifests/alto45.xml and paste this in
 ````
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
