@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter alto45,$(TARGET_DEVICE)),)
+ifneq ($(filter Alto45,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

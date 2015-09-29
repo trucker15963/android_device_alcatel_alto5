@@ -1,38 +1,10 @@
-/boot		    emmc	/dev/block/bootdevice/by-name/boot		    flags=display="Boot";backup=1
-/recovery	    emmc	/dev/block/bootdevice/by-name/recovery	    flags=display="Recovery";backup=1
-/system		    ext4	/dev/block/bootdevice/by-name/system        flags=display="System";backup=1;wipeingui
-/custpack		ext4	/dev/block/bootdevice/by-name/custpack      flags=display="Custpack";backup=1;wipeingui
-/cache		    ext4	/dev/block/bootdevice/by-name/cache         flags=display="Cache";backup=1
-/data		    ext4	/dev/block/bootdevice/by-name/userdata	    length=-16384,encryptable=footer
-/firmware		vfat	/dev/block/bootdevice/by-name/modem		    flags=display="Modem";backup=1
-/splash		    emmc    /dev/block/bootdevice/by-name/splash        flags=display="Splash";backup=1;flashimg=1
-
-/modemst1	    emmc	/dev/block/bootdevice/by-name/modemst1	    flags=display="Modemst1";backup=1
-/modemst2	    emmc	/dev/block/bootdevice/by-name/modemst2	    flags=display="Modemst2";backup=1
-/persist	    ext4	/dev/block/bootdevice/by-name/persist	    flags=display="Persist";backup=1
-/traceability   emmc	/dev/block/bootdevice/by-name/traceability  flags=display="Traceability";backup=1
-
-/aboot		    emmc	/dev/block/bootdevice/by-name/aboot		    flags=display="Aboot";backup=1
-/abootbak	    emmc	/dev/block/bootdevice/by-name/abootbak	    flags=display="Abootbak";backup=1
-/misc		    emmc	/dev/block/bootdevice/by-name/misc		    flags=display="Misc";backup=1
-/fota   	    emmc	/dev/block/bootdevice/by-name/fota		    flags=display="Fota";backup=1
-/DDR   		    emmc	/dev/block/bootdevice/by-name/DDR		    flags=display="DDR";backup=1
-/ssd  		    emmc	/dev/block/bootdevice/by-name/ssd		    flags=display="Ssd";backup=1
-/pad		    emmc	/dev/block/bootdevice/by-name/pad   	    flags=display="Pad";backup=1
-/sec     	    emmc	/dev/block/bootdevice/by-name/sec		    flags=display="Sec";backup=1
-/tctpersist     emmc    /dev/block/bootdevice/by-name/tctpersist    flags=display="Tctpersist";backup=1
-/tunning        emmc    /dev/block/bootdevice/by-name/tunning       flags=display="Tunning";backup=1 firmware
-/hdcp  		    emmc    /dev/block/bootdevice/by-name/hdcp		    flags=display="Hdcp";backup=1
-/sbl1		    emmc	/dev/block/bootdevice/by-name/sbl1	    	flags=display="Sbl1";backup=1
-/sbl1bak	    emmc	/dev/block/bootdevice/by-name/sbl1bak    	flags=display="Sbl1bak";backup=1
-/rpm		    emmc	/dev/block/bootdevice/by-name/rpm		    flags=display="Rpm";backup=1
-/rpmbak		    emmc	/dev/block/bootdevice/by-name/rpmbak	    flags=display="Rpmbak";backup=1
-/tz			    emmc	/dev/block/bootdevice/by-name/tz		    flags=display="Tz";backup=1
-/tzbak		    emmc	/dev/block/bootdevice/by-name/tzbak		    flags=display="Tzbak";backup=1
-/hyp		    emmc	/dev/block/bootdevice/by-name/hyp		    flags=display="Hyp";backup=1
-/hypbak		    emmc	/dev/block/bootdevice/by-name/hypbak	    flags=display="Hypbak";backup=1
-/fsc   		    emmc	/dev/block/bootdevice/by-name/fsc		    flags=display="Fsc";backup=1
-/fsg		    emmc	/dev/block/bootdevice/by-name/fsg	        flags=display="Efs";backup=1
-
-
-/external_sd	auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="External SD";storage;wipeingui;removable
+/system			ext4		/dev/block/bootdevice/by-name/system		flags=display="System";backup=1;wipeingui
+/custpack  		ext4		/dev/block/bootdevice/by-name/custpack		flags=display="Custpack";backup=1;wipeingui
+/data			ext4		/dev/block/bootdevice/by-name/userdata		flags=display="Data";backup=1;wipeingui;wipeduringfactoryreset
+/cache			ext4		/dev/block/bootdevice/by-name/cache	 		flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
+/persist		ext4		/dev/block/bootdevice/by-name/persist		flags=display="Persist";backup=1
+/firmware		vfat		/dev/block/bootdevice/by-name/modem			flags=display="Modem";backup=1
+/boot			emmc		/dev/block/bootdevice/by-name/boot			flags=display="Boot";backup=1
+/recovery		emmc		/dev/block/bootdevice/by-name/recovery		flags=display="Recovery";backup=1
+/external_sd    auto        /dev/block/mmcblk1p1   				 		flags=wipeingui;storage;removable;display="External SD"
+#/usbdisk	   	vfat		/dev/block/sda1	/dev/block/sda				flags=display="usbdisk";storage;removable

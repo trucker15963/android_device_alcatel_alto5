@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/tcl/alto45
+LOCAL_PATH := device/TCL/Alto45
 
 TARGET_ARCH := arm
 TARGET_CPU_ABI  := armeabi-v7a
@@ -38,7 +38,7 @@ BOARD_RAMDISK_OFFSET := 0x81000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x81000000 --tags_offset 0x81e00000
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
-TARGET_KERNEL_SOURCE := kernel/motorola/msm8916
+TARGET_KERNEL_SOURCE := kernel/tcl/msm8916
 TARGET_KERNEL_CONFIG := msm8916-mini_defconfig
 
 BOARD_USES_QCOM_HARDWARE := true
@@ -47,7 +47,7 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-TARGET_RECOVERY_FSTAB := device/tcl/alto45/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/TCL/Alto45/twrp.fstab
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
