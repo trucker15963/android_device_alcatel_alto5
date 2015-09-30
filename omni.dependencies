@@ -1,8 +1,8 @@
 [
   {
     "remote":      "github",
-    "repository":  "deadlink/android_kernel_tcl_alto45",
-    "target_path": "kernel/tcl/msm8916",
-    "revision":    "master"
+    "repository":  "CarlosArriagaDV/android_kernel_alcatel_alto45",
+    "target_path": "kernel/alcatel/alto45",
+    "revision":    "alto45"
   }
 ]
