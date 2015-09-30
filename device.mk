@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-PRODUCT_AAPT_CONFIG := normal mdpi
-PRODUCT_AAPT_PREF_CONFIG := mdpi
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := hdpi
