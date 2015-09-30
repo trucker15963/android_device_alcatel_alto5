@@ -1,1 +1,1 @@
-add_lunch_combo omni_Alto45-userdebug
+add_lunch_combo omni_alto45-userdebug
