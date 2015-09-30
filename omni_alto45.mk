@@ -17,6 +17,6 @@
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/TCL/Alto45/full_Alto45.mk)
+$(call inherit-product, device/alcatel/alto45/full_alto45.mk)
 
-PRODUCT_NAME := omni_Alto45
+PRODUCT_NAME := omni_alto45
