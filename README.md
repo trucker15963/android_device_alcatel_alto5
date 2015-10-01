@@ -20,7 +20,7 @@ Create a file .repo/local_manifests/alto45.xml and paste this in
 ````
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="CarlosArriagaDV/android_device_alcatel_alto45_twrp" path="device/tcl/alto45" remote="github" revision="twrp" />
+    <project name="CarlosArriagaDV/android_device_alcatel_alto45" path="device/alcatel/alto45" remote="github" revision="twrp" />
     <project name="CarlosArriagaDV/android_kernel_alcatel_alto45" path="kernel/alcatel/alto45" remote="github" revision="alto45" />
 </manifest>
 ````
