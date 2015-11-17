@@ -1,4 +1,4 @@
-#TWRP tree for POP 2 4.5 (ALTO45)
+#experimental TWRP tree for POP 2 (5) premium or V895N or vodafone smart prime 6 (ALTO5)
 
 ##Dependencies:
 (you probably don't need most of these)
@@ -16,12 +16,12 @@ repo init -u https://github.com/CarlosArriagaDV/twrp_recovery_manifest.git -b an
 mkdir -p .repo/local_manifests
 ````
 
-Create a file .repo/local_manifests/alto45.xml and paste this in
+Create a file .repo/local_manifests/alto5.xml and paste this in
 ````
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="CarlosArriagaDV/android_device_alcatel_alto45" path="device/alcatel/alto45" remote="github" revision="twrp" />
-    <project name="CarlosArriagaDV/android_kernel_alcatel_alto45" path="kernel/alcatel/alto45" remote="github" revision="alto45" />
+    <project name="OneB1t/android_device_alcatel_alto5premium" path="device/alcatel/alto5" remote="github" revision="twrp" />
+    <project name="OneB1t/android_device_alcatel_alto5premium" path="kernel/alcatel/alto5" remote="github" revision="alto5" />
 </manifest>
 ````
 
@@ -33,7 +33,7 @@ repo sync
 ##Building:
 ````
 source build/envsetup.sh
-lunch omni_alto45-userdebug
+lunch omni_alto5-userdebug
 make clean
 make installclean
 make -j10 recoveryimage
