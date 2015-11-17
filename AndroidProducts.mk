@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_alto45.mk
+    $(LOCAL_DIR)/omni_alto5.mk
