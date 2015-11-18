@@ -20,8 +20,8 @@ Create a file .repo/local_manifests/alto5.xml and paste this in
 ````
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="OneB1t/android_device_alcatel_alto5premium" path="device/alcatel/alto5" remote="github" revision="twrp" />
-    <project name="OneB1t/android_device_alcatel_alto5premium" path="kernel/alcatel/alto5" remote="github" revision="alto5" />
+    <project name="OneB1t/android_device_alcatel_alto5" path="device/alcatel/alto5" remote="github" revision="twrp" />
+    <project name="OneB1t/android_device_alcatel_alto5" path="kernel/alcatel/alto5" remote="github" revision="alto5" />
 </manifest>
 ````
 
