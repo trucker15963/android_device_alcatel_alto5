@@ -1,8 +1,8 @@
 [
   {
     "remote":      "github",
-    "repository":  "CarlosArriagaDV/android_kernel_alcatel_alto45",
-    "target_path": "kernel/alcatel/alto45",
-    "revision":    "alto45"
+    "repository":  "OneB1t/android_kernel_alcatel_alto5",
+    "target_path": "kernel/alcatel/alto5",
+    "revision":    "alto5"
   }
 ]
